@@ -32,3 +32,4 @@ async def stuff(ctx: commands.Context, member:discord.Member) -> None:
 def setup(bot):
     bot.add_command(cheese)
     bot.add_command(wave)
+    bot.add_command(restart)
